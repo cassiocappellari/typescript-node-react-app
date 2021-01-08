@@ -13,7 +13,7 @@ interface MessageTo {
 
 class EmailServices {
     sendMail(to: MailTo, message: MessageTo) { // função que recebe dois dados como parâmetro; para definição de tipagens, o 'to' será um objeto com nome e email e vai recever o objeto 'MailTo' com duas strings, mesma coisa com o parâmetro 'message'
-        console.log('Email enviado')
+        console.log(`Email enviado para ${to.name}: ${message.subject}`)
     }
 }
 
