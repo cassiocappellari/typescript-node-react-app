@@ -1,4 +1,4 @@
-import express from 'express' // o typescript suporta a feature 'import' do Node.js
+import express from 'express'
 import routes from './routes'
 
 const app = express()
